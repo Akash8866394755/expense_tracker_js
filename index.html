@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/index.css" />
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <div id="card">
+        <h2 id="title">Expense Tracker</h2>
+        <div id="input-field">
+            <label for="">Item Name</label>
+            <input type="text" id="item">
+        </div>
+        <div id="input-field">
+            <label for="">Item Price</label>
+            <input type="text" id="price">
+        </div>
+        <div>
+            <button id="add-btn" onclick="add()">Add</button>
+            <button id="clear-btn" onclick="clr()">Clear</button>
+        </div>
+
+        <div id="dynamic-tag">
+            <!-- <p class="style-class">apple: <span>30</span></p> -->
+            
+        </div>
+
+        <div id="total-expense-div" style="text-align: center; color: red;">
+            <!-- <p>Total Expense: <span>100</span></p> -->
+        </div>
+
+    </div>
+</body>
+</html>
